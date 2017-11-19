@@ -1,0 +1,241 @@
+color-headerText = #fff
+@font-face{
+  font-family: 'yeseva-one';
+  src: url(../fonts/yeseva/YesevaOne-Regular_v2.otf);
+}
+
+@font-face{
+  font-family: 'lato';
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+body
+	font-size 16px
+.wrap
+	width 90%
+	max-width 1600px
+	margin 0 auto
+	overflow hidden
+.header
+	height 751px
+	padding-left 10.9375%
+	padding-right 10.9375%
+	background: url(../img/header_bg.png), url(../img/header_top_bg.png) top
+	background-size cover
+	text-align center
+	&__list
+		list-style none
+		float right
+	&__itemList
+		display inline-block
+		height 70px
+		padding-top 42px
+		margin-left 53px
+		border-top 3px solid transparent
+		&:hover
+			border-top 3px solid #c7c4bb
+	&__link
+		text-decoration none
+		text-transform capitalize
+		color color-headerText
+		font-size 1.3125em
+	&__socials
+		float right
+		margin-top 50px
+		margin-left 20px
+	&__title
+		color color-headerText
+		font-size: 5.625em
+		display inline-block
+		margin-top 10%
+		font-family yeseva-one
+	&__decoration
+		display block
+		margin-left: 38%
+	&__imagelogo
+		float left
+		margin-top 5px
+	&__input
+		padding 17px 53px
+		color color-headerText
+		border none
+		opacity: .8
+		font-family lato
+		&-book
+			background-color: #130f10
+			margin-right 28px
+		&-menu
+			background-color: #d1b938
+.main1
+	min-height 710px
+	background url(../img/main_1_bg.png)
+	background-size cover
+	padding-left 10.9375%
+	padding-right 10.9375%
+	&__left
+		float left
+		width 412px
+		overflow hidden
+		text-align center
+		margin-top 100px
+		margin-right 63px
+	&__title
+		font-family yeseva-one
+		color #cc9900
+		font-size 2.25em
+		line-height 1.5em
+		font-weight 400
+	&__text
+		font-family lato
+		display inline-block
+		width 412px
+		text-align center
+		margin-top 28px
+		margin-bottom 50px
+		font-size 1em
+		line-height 1.5em
+	&__cook
+		margin-top 50px
+	&__plate
+		margin-top 70px
+		display inline-block
+		float right
+.main2
+	min-height 759px
+	background url(../img/main2_bg.png) no-repeat
+	color #fff
+	padding-left 50%
+	padding-top 5%
+	&__container
+		width 500px
+		text-align center
+		padding-top 75px
+		padding-bottom 75px
+		background-color: rgba(27, 22, 19 .67)
+	&__title
+		font-family yeseva-one
+		color #ffffff
+		font-size 2.25em
+	&__ingredientsImg
+		display inline-block
+.main3
+	min-height 994px
+	background url(../img/main3_bg.png) no-repeat
+	padding-left 10.9375%
+	padding-right 10.9375%
+	display flex
+	flex-direction row
+.left
+	display inline-block
+	width 470px
+	margin-right 170px
+.right
+	display inline-block
+	width 470px
+	
+.menuItem
+	width 450px
+	text-align center
+	display inline-block
+	margin-right 164px
+	margin-top 70px
+	&__title
+		color #cc9900
+		font-size 2.25em
+		line-height 1.5em
+		font-family yeseva-one
+	&__divider
+		display inline
+	&__subTitle
+		font-size 1.3125em
+		color #c89f2d
+		float left
+		display inline-block
+	&__price
+		font-size 1.3125em
+		color #c89f2d
+		float right
+		display inline-block
+	&__description
+		color #4c4c4c
+		font-size 1em
+		line-height 1.5em
+	&__subItemrow
+		margin-top 33px
+		&-special
+			border 1px solid #c89f2d
+			padding 5px
+			position relative
+			&:before
+				content 'Special'
+				position absolute
+				right 0
+				top -22px
+				background url(../img/special_row.png)
+				width 69px
+				height 22px
+				display block
+				font-size 0.875em
+				color #f8fafa
+				font-family lato
+.main4
+	min-height 758px
+	background url(../img/main4_bg.png) no-repeat
+	color #fff
+	padding-top 6%
+	&__container
+		margin-left 35%
+	&__text
+		font-style italic
+		font-size: 1.1em
+.main5
+	min-height 710px
+	background url(../img/main_1_bg.png)
+	padding-left 10.9375%
+	padding-right 10.9375%
+	&__right
+		float right
+		width 580px
+	&__img
+		margin-right 30px
+		margin-top 100px
+form
+	text-align left
+	&__btn
+		text-align center
+.form-group
+	display flex
+	flex-direction row
+.formRow
+	display inline-block
+	width 50%
+	padding-left 10%
+	label
+		width 50%
+		display block
+		text-align left
+	input
+		width 70%
+		display block
+.form__btn
+	margin-left 30%
+	margin-top 30px
+	width 200px
+	height 33px
+	color #fff
+	background-color #c9a131
+.footer
+	background-color: #191919
+	min-height 318px
+	color #fefefe
+	padding-left 10.9375%
+	padding-right 10.9375%
+	&__block
+		margin-top 50px
+		margin-right 0
+	&__title
+		color #fefefe
+		font-size 21px
+	&__text
+		font-size 1em
+	&__link:hover
+		text-decoration none
