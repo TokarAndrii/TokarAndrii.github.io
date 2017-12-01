@@ -1,7 +1,7 @@
 # TokarAndrii.github.io
 portfolio websites of  tokar andrii
 
-List:
+List of websites:
 
 https://tokarandrii.github.io/restaurant/ - psd to html
 
