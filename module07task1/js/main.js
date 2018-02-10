@@ -1,4 +1,4 @@
-/*Используя createElement, написать функцию createUserCard()
+﻿/*Используя createElement, написать функцию createUserCard()
  которая динамически создает и возвращает дом узел для такой
  карточки пользователя. Классы оформления добавляем через classList.
  */
@@ -188,7 +188,7 @@ function createUserCard3(){
                 <div class="card__personalData">
                     <span class="card__name">${obj.name}</span>
                     <div>
-                    	<p class="card__age">29</p>
+                    	<p class="card__age">${obj.age}</p>
                     	<address>${obj.location}</address>
                     </div>
                     <div class="card__personalData-container">
