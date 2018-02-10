@@ -11,7 +11,6 @@ List of websites:
 
 	<a href="https://tokarandrii.github.io/shoes/">shoes</a>
 
-	<a href="https://tokarandrii.github.io/module07task1/">module07task1</a>
 </html>
 
 
