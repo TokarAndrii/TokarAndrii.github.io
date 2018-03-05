@@ -1,25 +1,14 @@
-portfolio websites of Tokar Andrii
+# TokarAndrii.github.io
+portfolio websites of  tokar andrii
 
-
-***************************
 List of websites:
 
- - psd to html
+https://tokarandrii.github.io/restaurant/ - psd to html
 
-<html>
-	<a href="https://tokarandrii.github.io/restaurant/">restaurant</a>
+https://tokarandrii.github.io/shoes/      - psd to html 
 
-	<a href="https://tokarandrii.github.io/shoes/">shoes</a>
+https://tokarandrii.github.io/module07task1/ 
 
-</html>
+************************************************************
 
-
-***************************
-Java script tasks:
-
-<html>
-	<a href="https://tokarandrii.github.io/module07task1/">module07task1</a>
-</html>
-
-
-
+https://tokarandrii.github.io/card/  Java Scriptt game "Cards"
